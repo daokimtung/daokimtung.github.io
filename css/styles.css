@@ -10982,6 +10982,12 @@ html {
   width: 15rem;
 }
 
+@media (min-width: 768px) {
+  .masthead .masthead-avatar {
+    width: 18rem; /* Medium screens like tablets */
+  }
+}
+
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
@@ -10993,6 +10999,9 @@ html {
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
+  }
+  .masthead .masthead-avatar {
+    width: 21rem; /* Large screens like desktops */
   }
 }
 .portfolio .portfolio-item {
