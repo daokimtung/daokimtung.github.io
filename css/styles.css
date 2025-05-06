@@ -5798,20 +5798,6 @@ textarea.form-control-lg {
   overflow: hidden;
 }
 
-.carousel-inner {
-  height: 400px; /* or another fixed value */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.carousel-inner img {
-  height: 100%;
-  width: auto;
-  object-fit: contain;
-  margin: auto;
-}
-
 .carousel-inner::after {
   display: block;
   clear: both;
